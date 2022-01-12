@@ -1,0 +1,56 @@
+I - Numeric Types — int, float, complex
+Booleans are a subtype of int
+int(x)
+float(x)
+x % y #remainder of x / y
+complex(re, im) #a complex number with real part re, imaginary part im. im defaults to zero
+
+II - Sequence Types — list, tuple, range
+
+
+
+
+
+
+
+1) methods : object_name.method_name()
+
+It's a function which is a member of a class:
+class C:
+    def my_method(self):
+        print("I am a C")
+
+c = C()
+c.my_method()  # Prints("I am a C")
+
++ y a des methodes pour chaque objet (listes, strings, ...) : 
+my_list = [1, 2, 3]
+my_list.append(4) #append est une mothed des objets list
+my_string = 'some lowercase text'
+my_string.upper() #upper est une method des objets string
+
+
+2) built-in (module) : module_name.function_name()
+
+import math
+math.sqrt(81)
+
+math est un module, pas un objet, et sqrt est une fonction
+je peux créer moi meme mon module. J'ai juste a créer un fichier avec mes fonctions dedans et l'appeller test.py
+import test
+test.fonction1 #et ca appelle la fonction1 contenue dans le fichier test.py
+
+4) classes
+
+class C:
+    def my_method(self):
+        print("I am a C")
+
+c = C()
+C.my_method(c)  # Prints("I am a C")
+c.my_method() #Prints("I am a C"), c'est la meme chose qu'au dessus
+
+5) caster :
+int(x)
+
+##revoir les varaibles : booléen etc
