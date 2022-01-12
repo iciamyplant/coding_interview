@@ -36,5 +36,23 @@ def huge_dict():
     #print(sorted(set(dic2['notes'])))
     print(sorted(set(dic2['notesbyeleve']))) #sorted pour ordre croissant + set pour elenver le doublon
     
+
+
+def dict_methods():
+    dic=dict(this=1, iss=2, an=3, exemple=4)
+    #print(dic)
+    print([x for x in dic]) #imprime les keys
+    print([x for x in dic.values()]) #imprimes les valeurs
+    print([x for x in dic.items()]) #imprimes les keys et valeurs
+    
+    print('\n')
+    del dic['this']; # remove entry with key 'this'
+    print(dic)
+    dic.clear() #remove all entries in dict renovie dic={}
+    print(dic)
+    dic['this2'] = 1#j'ajoute une key:value au dictionnaire
+    print(dic)
+
 #dict_dec()
-huge_dict()
+#huge_dict()
+dict_methods()

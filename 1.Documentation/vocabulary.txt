@@ -1,0 +1,2 @@
+iterator = an object that contains a countable number of elements that can be iterated upon. ex x=[10,11,8,14,23]
+data is stored = data est stockée
