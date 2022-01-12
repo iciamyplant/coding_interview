@@ -4,8 +4,16 @@ int(x)
 float(x)
 x % y #remainder of x / y
 complex(re, im) #a complex number with real part re, imaginary part im. im defaults to zero
+pow(x, y) #x to the power y
+x ** y #x to the power y
+abs(x) #absolute value or magnitude of x
 
 II - Sequence Types — list, tuple, range
+index by range number 
+
+III - Mapping Types
+index by key
+keys are unique (within one dictionary)
 
 
 
